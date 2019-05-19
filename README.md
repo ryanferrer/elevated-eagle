@@ -4,7 +4,7 @@ Because who doesn't need a project boiler plate??
 
 I figured the name Dynamic-Doggo fit perfectly. 
 
-Wow very Dyanmic, am a doggo! But also a JS app boiler plate!
+Wow very Dynamic, am a doggo! But also a JS app boiler plate!
 
                    ▄              ▄
                   ▌▒█           ▄▀▒▌
