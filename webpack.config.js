@@ -3,7 +3,7 @@ const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./client/Latch.jsx",
+  entry: "./client/index.jsx",
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: "app.js"
