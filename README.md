@@ -1,27 +1,11 @@
-# dynamic-doggo
+# What is Dynamic Doggi?
 
-Because who doesn't need a project boiler plate??
+Dynamic Doggo is a  `React App` boiler plate.
 
-I figured the name Dynamic-Doggo fit perfectly. 
+This boiler plate can be hooked up to the database of your choosing, whether it's MongoDB, or MySQL.
 
-Wow very Dynamic, am a doggo! But also a JS app boiler plate!
+## Some guidelines
 
-                   ▄              ▄
-                  ▌▒█           ▄▀▒▌
-                  ▌▒▒█        ▄▀▒▒▒▐
-                 ▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐
-               ▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐
-             ▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌
-            ▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒▌
-            ▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐
-           ▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄▌
-           ▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒▌
-          ▌▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒▐
-          ▐▒▒▐▀▐▀▒░▄▄▒▄▒▒▒▒▒▒░▒░▒░▒▒▒▒▌
-          ▐▒▒▒▀▀▄▄▒▒▒▄▒▒▒▒▒▒▒▒░▒░▒░▒▒▐
-           ▌▒▒▒▒▒▒▀▀▀▒▒▒▒▒▒░▒░▒░▒░▒▒▒▌
-           ▐▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▒▄▒▒▐
-            ▀▄▒▒▒▒▒▒▒▒▒▒▒░▒░▒░▒▄▒▒▒▒▌
-              ▀▄▒▒▒▒▒▒▒▒▒▒▄▄▄▀▒▒▒▒▄▀
-                ▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀
-                   ▒▒▒▒▒▒▒▒▒▒▀▀
+- This boiler plate was made to use SoC principles.
+- Each component you build should be self contained in it's own folder.
+- npm scripts for building and serving are found in the package.json folder.
