@@ -1,6 +1,6 @@
-# What is Dynamic Doggi?
+# What is Dynamic Doggo?
 
-Dynamic Doggo is a  `React App` boiler plate.
+Dynamic Doggo is a small to medium scale `React App` boiler plate.
 
 This boiler plate can be hooked up to the database of your choosing, whether it's MongoDB, or MySQL.
 
