@@ -1,15 +1,16 @@
 import React from 'react';
+import VerticalNavItem from './VerticalNavItem.jsx';
 
-const VerticalNav = () => {
+const VerticalNav = ({props}) => {
   return(
     <>
       I'm going to list items here to navigate through
       <ul>
-        <li>About Me</li>
-        <li>Portfolio</li>
-        <li>Resume</li>
-        <li>Contact</li>
-        <li>Buttstuff</li>
+        {props.map((item, i) => {
+          return(
+            <VerticalNavItem props={item} key={i}/>
+          )
+        })}
       </ul>
     </>
   );
