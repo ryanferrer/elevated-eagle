@@ -8,8 +8,15 @@ class Sidebar extends Component{
     super(props);
 
     this.state = {
-      NavItems: [`About Me`, `Apps I've made`, `Resume`, `Contact`, `Other Media` ],
+      NavNames: [`About Me`, `Apps I've made`, `Resume`, `Contact`, `Other Media` ],
     };
+  }
+
+  switchMain(name){
+    // window.dispatchEvent(
+    //   new CustomEvent('setMainState', {detail: page})
+    // )
+    console.log(name);
   }
 
   render(){
@@ -17,7 +24,7 @@ class Sidebar extends Component{
       <>
         <div>
           <SidebarHeader/>
-          <VerticalNav props={this.state.NavItems}/>
+          <VerticalNav names={this.state.NavNames} handleClick={this.switchMain.bind(this)}/>
         </div>
       </>
     );

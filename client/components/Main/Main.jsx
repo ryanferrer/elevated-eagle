@@ -10,6 +10,10 @@ class Main extends Component{
     this.state = {};
   }
 
+  switchMain(){
+    
+  }
+
   render(){
     return(
       <>

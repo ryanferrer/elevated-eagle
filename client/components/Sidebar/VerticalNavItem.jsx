@@ -1,9 +1,9 @@
 import React from 'react';
 
-const VerticalNavItem = ({props}) => {
+const VerticalNavItem = ({name, handleClick}) => {
   return (
     <>
-      <div id="V-Nav-List-Item" className="V-Nav-Item">{props}</div>
+      <div id="V-Nav-List-Item" className="V-Nav-Item" onClick={()=>{handleClick(name)}}>{name}</div>
     </>
   );
 }

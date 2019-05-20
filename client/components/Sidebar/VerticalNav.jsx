@@ -1,14 +1,14 @@
 import React from 'react';
 import VerticalNavItem from './VerticalNavItem.jsx';
 
-const VerticalNav = ({props}) => {
+const VerticalNav = ({names, handleClick}) => {
   return(
     <>
     <div id="V-Nav-List-Container">
       <div id="V-Nav-List">
-        {props.map((item, i) => {
+        {names.map((name, i) => {
           return(
-            <VerticalNavItem props={item} key={i}/>
+            <VerticalNavItem name={name} key={i} handleClick={handleClick}/>
           )
         })}
       </div>
