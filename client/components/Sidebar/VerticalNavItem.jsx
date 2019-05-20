@@ -3,7 +3,7 @@ import React from 'react';
 const VerticalNavItem = ({props}) => {
   return (
     <>
-      <li>{props}</li>
+      <div id="V-Nav-List-Item" className="V-Nav-Item">{props}</div>
     </>
   );
 }

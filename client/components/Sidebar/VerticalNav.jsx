@@ -4,14 +4,15 @@ import VerticalNavItem from './VerticalNavItem.jsx';
 const VerticalNav = ({props}) => {
   return(
     <>
-      I'm going to list items here to navigate through
-      <ul>
+    <div id="V-Nav-List-Container">
+      <div id="V-Nav-List">
         {props.map((item, i) => {
           return(
             <VerticalNavItem props={item} key={i}/>
           )
         })}
-      </ul>
+      </div>
+    </div>  
     </>
   );
 }

@@ -16,7 +16,6 @@ class Sidebar extends Component{
     return(
       <>
         <div>
-          Wow I'm a sidebar!
           <SidebarHeader/>
           <VerticalNav props={this.state.NavItems}/>
         </div>
