@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Doge from './Doge.jsx'
 
 class App extends Component{
   constructor(props){
@@ -11,7 +10,7 @@ class App extends Component{
   render(){
     return(
       <>
-        <Doge/>
+        Nothing!
       </>
     );
   }

@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App/App.jsx'
+import Sidebar from './components/Sidebar/Sidebar.jsx';
+import Main from './components/Main/Main.jsx';
+import './index.css';
 
-ReactDOM.render(<App/>, document.getElementById('App'));
+ReactDOM.render(<Sidebar/>, document.getElementById('Sidebar'));
+ReactDOM.render(<Main/>, document.getElementById('Main'));
