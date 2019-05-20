@@ -11,11 +11,14 @@ class Main extends Component{
       pageToRender: null
     };
 
-    window.addEventListener('setMainState', ()=> console.log('I listened'))
+  }
+  
+  componentDidMount(){
+    window.addEventListener('setMainState', this.handleMainSwitch.bind(this));
   }
 
-  switchMain(){
-    
+  handleMainSwitch(e){
+    this.setState({pageToRender: e.detail});
   }
 
   render(){
