@@ -13,10 +13,9 @@ class Sidebar extends Component{
   }
 
   switchMain(name){
-    // window.dispatchEvent(
-    //   new CustomEvent('setMainState', {detail: page})
-    // )
-    console.log(name);
+    window.dispatchEvent(
+      new CustomEvent('setMainState', {detail: name})
+    )
   }
 
   render(){
