@@ -34,3 +34,21 @@
   margin-bottom: 20px;
   margin-right: 5px;
 }
+
+#Sidebar-Footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Shortcut-Container > img{
+  height: 32px;
+  width:  32px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

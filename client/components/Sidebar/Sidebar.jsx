@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import SidebarHeader from './SidebarHeader.jsx';
 import VerticalNav from './VerticalNav.jsx';
+import SidebarFooter from './SidebarFooter.jsx';
 import './Sidebar.css';
 
 class Sidebar extends Component{
@@ -24,6 +25,7 @@ class Sidebar extends Component{
         <div>
           <SidebarHeader/>
           <VerticalNav names={this.state.NavNames} handleClick={this.switchMain.bind(this)}/>
+          <SidebarFooter/>
         </div>
       </>
     );
