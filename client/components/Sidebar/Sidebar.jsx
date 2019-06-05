@@ -1,33 +1,21 @@
-import React, {Component} from 'react';
-import SidebarHeader from './SidebarHeader.jsx';
-import VerticalNav from './VerticalNav.jsx';
-import SidebarFooter from './SidebarFooter.jsx';
-import './Sidebar.css';
+import React, { Component } from 'react';
+import style from './Sidebar.css';
 
 class Sidebar extends Component{
   constructor(props){
     super(props);
-
-    this.state = {
-      NavNames: [`About Me`, `Apps I've made`, `Resume`, `Contact`, `Other Media` ],
-    };
-  }
-
-  switchMain(name){
-    window.dispatchEvent(
-      new CustomEvent('setMainState', {detail: name})
-    )
   }
 
   render(){
     return(
-      <>
-        <div>
-          <SidebarHeader/>
-          <VerticalNav names={this.state.NavNames} handleClick={this.switchMain.bind(this)}/>
-          <SidebarFooter/>
-        </div>
-      </>
+      <div className="sidebar">
+        
+        <a className="Sidebar-Entry">About Me</a>
+        <a className="Sidebar-Entry">Resume</a>
+        <a className="Sidebar-Entry">My Apps</a>
+        <a className="Sidebar-Entry">Contact</a>
+    
+      </div>
     );
   }
 }
